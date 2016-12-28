@@ -3,7 +3,30 @@
   "version": "0.0.1",
   "description": "Nested ToDo and Daily",
   "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "NODE_ENV=testing node test/index.js | tap-spec || true",
+    "lint": "eslint src/ --fix || true"
+  },
   "repository": "git@github.com:AscaL/NTD.git",
   "author": "AscaL <emanueleorfanelli@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.8.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
 }
