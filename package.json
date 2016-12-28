@@ -1,0 +1,9 @@
+{
+  "name": "NTD",
+  "version": "0.0.1",
+  "description": "Nested ToDo and Daily",
+  "main": "index.js",
+  "repository": "git@github.com:AscaL/NTD.git",
+  "author": "AscaL <emanueleorfanelli@gmail.com>",
+  "license": "MIT"
+}
