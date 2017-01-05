@@ -7,6 +7,6 @@ export default class CreateTodos extends React.Component {
         <input type="text" />
         <button>Create</button>
       </form>
-    )
+    );
   }
 }
