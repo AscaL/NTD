@@ -1,6 +1,7 @@
 import React from 'react';
 
 import TodosList from './TodosList';
+import CreateTodos from './CreateTodos';
 
 const todos = [
   {
